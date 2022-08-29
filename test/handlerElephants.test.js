@@ -28,5 +28,4 @@ describe('Testes da função HandlerElephants', () => {
   it('verfica se ao receber populatiry retorna a popularidade dos elefantes', () => {
     expect(handlerElephants('populatiry')).toBeNull();
   });
-
 });
